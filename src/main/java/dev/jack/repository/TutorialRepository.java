@@ -13,7 +13,7 @@ public interface TutorialRepository extends JpaRepository<Tutorial, Long> {
 	// Now we can use JpaRepository’s methods: save(), findOne(), findById(), findAll(), 
 	// count(), delete(), deleteById()… without implementing these methods.
 	
-	// how to write a custom methods with spring-data-jpa
+	// how to write a custom methods with spring-data-jpa refer below link
 	// https://www.netsurfingzone.com/jpa/how-to-write-custom-method-in-repository-in-spring-data-jpa/
 	//
 	// returns all Tutorials with published having value as input published.
